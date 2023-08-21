@@ -1,0 +1,20 @@
+{
+  "name": "rxjs-ts",
+  "version": "1.0.0",
+  "description": "Typescript project for rxjs experiment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --loader ts-node/esm rxjs-test.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "rxjs": "^7.8.1"
+  }
+}
